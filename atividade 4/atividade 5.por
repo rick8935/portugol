@@ -40,6 +40,8 @@ programa
 		escreva("2 - Dinheiro\n")
 		escreva("3 - Cartão de débito\n")
 		escreva("4 - Cartão de crédito (1 parcela)\n")
+		escreva("5 - Cartão de crédito (até 3 parcelas)\n")
+		escreva("6 - Cartão de crédito (mais de 3 parcelas)\n")
 		leia(forma_de_pagamento)
 		
 		escolha(forma_de_pagamento)
@@ -67,12 +69,7 @@ programa
 		escreva("\nDeseja encerrar o programa? [S/N]\n")
 		leia(opcao)
 
-		se(opcao == 's' ou opcao == 'S')
-		{
-			limpa()
-			inicio()
-		}
-		senao se(opcao == 'n' ou opcao == 'N')
+		se(opcao == 'n' ou opcao == 'N')
 		{
 			inicio()
 		}
@@ -150,8 +147,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1499; 
- * @DOBRAMENTO-CODIGO = [81, 90, 99, 108, 117, 136];
+ * @POSICAO-CURSOR = 1391; 
+ * @DOBRAMENTO-CODIGO = [76, 85, 94, 103, 112, 131];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
