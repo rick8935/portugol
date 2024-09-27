@@ -63,6 +63,19 @@ programa
 				cartao_de_credito3()
 			pare
 		}
+
+		escreva("\nDeseja encerrar o programa? [S/N]\n")
+		leia(opcao)
+
+		se(opcao == 's' ou opcao == 'S')
+		{
+			limpa()
+			inicio()
+		}
+		senao se(opcao == 'n' ou opcao == 'N')
+		{
+			inicio()
+		}
 	}
 	funcao pix()
 	{
@@ -137,8 +150,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2924; 
- * @DOBRAMENTO-CODIGO = [68, 77, 86, 95, 104];
+ * @POSICAO-CURSOR = 1499; 
+ * @DOBRAMENTO-CODIGO = [81, 90, 99, 108, 117, 136];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
